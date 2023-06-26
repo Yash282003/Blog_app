@@ -1,0 +1,32 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "3 days Tour of Tajmahal",
+      "info": "It is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+     
+      "image": "https://cdn.pixabay.com/photo/2020/06/05/21/09/cultural-tourism-5264542_640.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Yummy-Yummy!!!",
+      "info": "Well hello there my foodie friends! Today we're talking food blogging! If blogging isn't your cup of tea and your just here for food and the recipes, I promise I have some more deliciousness in store for you (really, scout's honor!) soon. In the meantime, why not check out some tasty desserts or decadent breakfast recipes?",
+     
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCk_XZtyNO1LtOcVGYv3ajJpw6jBnP7GKeg&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Making Music Stories",
+      "info": "Music fans have never had so much choice when it comes to keeping up with the latest music news and releases. But, as always with so much choice, it’s difficult to know which sites are worth reading, and which aren’t.That’s why we’ve compiled this list of the best music blogs, online music magazines and music discovery sites.",
+     
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFnDNWiq5S0HWuVXEa4mx5ISBZO6SmRndlg&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Writing is fun",
+      "info": "Avid readers and writers don’t just spend their time buried in novels. They can also be found on literature blogs discussing book summaries and reviews, grammar and style questions, and sharing writing tips. But they don’t all end up at the same place. These book and writing blogs often split into fiction or nonfiction.",
+     
+      "image": "https://images.theconversation.com/files/407039/original/file-20210617-15-2h4ak3.jpg?ixlib=rb-1.1.0&rect=0%2C10%2C3500%2C2321&q=45&auto=format&w=926&fit=clip"
+    }
+  ]
+}
