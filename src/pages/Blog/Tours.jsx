@@ -1,6 +1,7 @@
 import React from "react";
 import Tour from "./Tour";
 import './Tours.css';
+import BlogApp from "./Blogapp";
 const Tours = ({ tours, removeTour }) => {
   return (
     <section>
@@ -9,9 +10,10 @@ const Tours = ({ tours, removeTour }) => {
         <div className="underline"></div>
       </div>
       <div>
-        {tours.map((tour) => {
-          return <Tour key={tour.id} {...tour}  />;
+        {tours?.map((tour) => {
+          return <Tour key={tour.id} {...tour} removeTour={removeTour} />;
         })}
+        <BlogApp/> 
       </div>
     </section>
   );
