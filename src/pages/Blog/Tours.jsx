@@ -1,7 +1,6 @@
 import React from "react";
 import Tour from "./Tour";
 import './Tours.css';
-import BlogApp from "./Blogapp";
 const Tours = ({ tours, removeTour}) => {
   return (
     <section>
