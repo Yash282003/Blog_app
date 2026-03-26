@@ -12,14 +12,24 @@ const BlogForm = ({ onSubmit }) => {
     setBlogData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // if (!blogData.name || !blogData.info || !blogData.image) {
-    //   return;
-    // }
-    onSubmit(blogData);
-    setBlogData({ name: "", info: "", image: "" });
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  if (!blogData.name || !blogData.info || !blogData.image) {
+    alert("All fields are required");
+    return;
+  }
+
+  onSubmit(blogData); // ✅ correct
+
+  console.log(blogData);
+
+  setBlogData({
+    name: "",
+    info: "",
+    image: "",
+  });
+};
 
   return (
     <form onSubmit={handleSubmit}>

@@ -2,7 +2,7 @@ import React from "react";
 import Tour from "./Tour";
 import './Tours.css';
 import BlogApp from "./Blogapp";
-const Tours = ({ tours, removeTour }) => {
+const Tours = ({ tours, removeTour}) => {
   return (
     <section>
       <div className="title">
@@ -10,11 +10,17 @@ const Tours = ({ tours, removeTour }) => {
         <div className="underline"></div>
       </div>
       <div>
-        {tours?.map((tour) => {
-          return <Tour key={tour.id} {...tour} removeTour={removeTour} />;
-        })}
-        <BlogApp/> 
+       {Array.isArray(tours) &&
+  tours.map((tour, index) => (
+    <Tour
+      key={tour.id || index}
+      {...tour}
+      removeTour={removeTour}
+    />
+  ))}
+  
       </div>
+      
     </section>
   );
 };

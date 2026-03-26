@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Body.css'
-import {TiChevronLeftOutline, TiChevronRightOutline} from 'https://cdn.skypack.dev/react-icons/ti';
+import {TiChevronLeftOutline, TiChevronRightOutline} from 'react-icons/ti';
 import pic from '../../assets/pic.jpg';
 const CARDS = 5;
 const MAX_VISIBILITY = 3;
@@ -45,7 +45,7 @@ function Body() {
         {[...new Array(CARDS)].map((_, i) => (
           <Card
             title={'Blog ' + (i + 1)}
-            imageUrl={pic}  // Replace with the actual image URL
+            imageUrl={pic}  
             content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nost'
           />
         ))}
